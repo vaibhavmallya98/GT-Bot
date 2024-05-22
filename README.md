@@ -10,13 +10,20 @@ This is an end to end LLM project based on Google Palm and Langchain. This has b
 - LLM based QnA system that can reduce the time spent by potential future students on Georgia Tech ECE website. 
 - Students should be able to use this system to ask questions directly and get answers within seconds
 
-## It utilizes the following,
+## It utilizes the following:
   - Langchain + Google Palm: LLM based Q&A
   - Streamlit: UI
   - Huggingface instructor embeddings: Text embeddings
   - FAISS: Vector database
 
+## Demo Video 
+https://github.com/vaibhavmallya98/GT-Bot/assets/45683079/d025976c-2554-4a27-a305-3b8b8d4cd62a
+
 ## Installation
+
+
+
+
 
 1.Clone this repository to your local machine using:
 
