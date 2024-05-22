@@ -6,7 +6,7 @@ This is an end to end LLM project based on Google Palm and Langchain. This has b
 
 ## Project Highlights
 
-- Use a CSV file of FAQs that Codebasics company is using right now. 
+- Uses a CSV file of FAQs. 
 - LLM based QnA system that can reduce the time spent by potential future students on Georgia Tech ECE website. 
 - Students should be able to use this system to ask questions directly and get answers within seconds
 
