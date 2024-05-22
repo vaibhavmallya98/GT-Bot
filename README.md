@@ -1,18 +1,16 @@
 
-# Codebasics Q&A: Question and Answer System Based on Google Palm LLM and Langchain for E-learning company  
+# GT Bot: Question and Answer System Based on Google Palm LLM and Langchain for Georgia Tech MS ECE Admissions 
 
-This is an end to end LLM project based on Google Palm and Langchain. We are building a Q&A system for an e-learning company called codebasics (website: codebasics.io). Codebasics sells data related courses and bootcamps. They have thousands of learners who uses discord server or email to ask questions. This system will provide a streamlit based user interface for students where they can ask questions and get answers. 
+This is an end to end LLM project based on Google Palm and Langchain. This has been designed for students applying to Master of Science in Electrical and Computer Engineering program at Georgia Tech. 
 
-![](codebasics_q_and_a.png)
 
 ## Project Highlights
 
-- Use a real CSV file of FAQs that Codebasics company is using right now. 
-- Their human staff will use this file to assist their course learners.
-- We will build an LLM based question and answer system that can reduce the workload of their human staff.
+- Use a CSV file of FAQs that Codebasics company is using right now. 
+- LLM based QnA system that can reduce the time spent by potential future students on Georgia Tech ECE website. 
 - Students should be able to use this system to ask questions directly and get answers within seconds
 
-## You will learn following,
+## It utilizes the following,
   - Langchain + Google Palm: LLM based Q&A
   - Streamlit: UI
   - Huggingface instructor embeddings: Text embeddings
@@ -23,12 +21,12 @@ This is an end to end LLM project based on Google Palm and Langchain. We are bui
 1.Clone this repository to your local machine using:
 
 ```bash
-  git clone https://github.com/codebasics/langchain.git
+  git clone https://github.com/vaibhavmallya98/GT-Bot.git
 ```
 2.Navigate to the project directory:
 
 ```bash
-  cd 3_project_codebasics_q_and_a
+  cd GT-Bot
 ```
 3. Install the required dependencies using pip:
 
@@ -57,11 +55,11 @@ streamlit run main.py
 - Now you are ready to ask questions. Type your question in Question box and hit Enter
 
 ## Sample Questions
-  - Do you guys provide internship and also do you offer EMI payments?
-  - Do you have javascript course?
-  - Should I learn power bi or tableau?
-  - I've a MAC computer. Can I use powerbi on it?
-  - I don't see power pivot. how can I enable it?
+  - What is the application fee for MS ECE?
+  - What are the minimum admission requirements for MS ECE?
+  - Is the GRE required for MS ECE?
+  - Do I have to pay the application fee for Joint BS/MS program and is GRE required for it?
+  - What are the minimum scores required for IELTS and TOEFL?
 
 ## Project Structure
 
